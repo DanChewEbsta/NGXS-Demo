@@ -1,0 +1,26 @@
+<h3>Current Count {{facade.getCount | async}}</h3>
+<h4>Current Increment {{ facade.getIncrement | async }}</h4>
+
+<div class="flex">
+    <app-add>
+    </app-add>
+
+    <app-decrement>
+    </app-decrement>
+
+    <app-increment>
+    </app-increment>
+</div>
+
+
+<!-- 
+    Benefits in template:
+        - removes inputs/outputs
+            - smaller smart components with minimal inputs
+            - no more having to pass data down layers
+            - less cog load on devs
+        - change detection strategies can be changed to on push ++ performance
+            - possible store values in state and using actions to to change state 
+        - decouples components from each other
+        - reduce package size
+-->

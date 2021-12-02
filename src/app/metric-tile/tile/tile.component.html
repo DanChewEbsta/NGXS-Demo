@@ -1,0 +1,4 @@
+<div *ngIf="tile$ | async as tile" (click)="selectTile()">
+    <p>{{ tile?.id }}</p>
+    <p>{{ tile?.name }}</p>
+</div>

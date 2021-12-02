@@ -1,0 +1,13 @@
+<div>
+    Id Filter 
+    <select (change)="onIdSelected($event)">
+        <option value=""></option>
+        <option *ngFor="let item of facade.metricsIds | async" value="{{item}}">{{item}}</option>
+    </select>
+
+    Tag Filter 
+    <select (change)="onTagSelected($event)">
+        <option value=""></option>
+        <option *ngFor="let item of facade.tags | async" value="{{item}}">{{item}}</option>
+    </select>
+</div>

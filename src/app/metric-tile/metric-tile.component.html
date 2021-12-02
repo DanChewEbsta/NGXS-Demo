@@ -1,0 +1,9 @@
+<app-filter></app-filter>
+
+<div class="flex" *ngIf="facade.isLoaded | async">
+    <app-tile *ngFor="let id of facade.filteredIds | async" [tileId]="id"></app-tile>
+</div>
+<div>
+    <app-selected-tile></app-selected-tile>
+</div>
+<app-action-notifier></app-action-notifier>

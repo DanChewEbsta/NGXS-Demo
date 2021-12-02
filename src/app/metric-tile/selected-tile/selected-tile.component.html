@@ -1,0 +1,9 @@
+
+<div *ngIf="facade.selectedMetric | async as selectedMetric">
+    <div>Id: {{  selectedMetric.id }}</div>
+    <div>Name: {{  selectedMetric.name }}</div>
+    <div>Value: {{  selectedMetric.value }}</div>
+    <ul>
+       <li *ngFor="let tag of selectedMetric.tags">{{ tag }}</li> 
+    </ul>
+</div>

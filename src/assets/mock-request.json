@@ -1,0 +1,44 @@
+{
+    "metric": [{
+            "id": 1,
+            "name": "deal score",
+            "value": 82,
+            "tags": ["scores", "number", "deal"] 
+        },{
+            "id": 2,
+            "name": "favourite product colour",
+            "value": "blue",
+            "tags": ["colour", "text", "product"] 
+        },{
+            "id": 3,
+            "name": "engagement score",
+            "value": 84,
+            "tags": ["scores", "number", "engagement"] 
+        },{
+            "id": 4,
+            "name": "most sold product (quantity)",
+            "value": "iPhone",
+            "tags": ["product", "text", "sales"] 
+        },{
+            "id": 5,
+            "name": "most sold product (value)",
+            "value": "Macbook Pro",
+            "tags": ["product", "text", "value"] 
+        },{
+            "id": 6,
+            "name": "Revenue",
+            "value": 32000000,
+            "tags": ["revenue", "number", "metric"] 
+        },{
+            "id": 7,
+            "name": "Potential",
+            "value": 72000000,
+            "tags": ["revenue", "number", "metric"] 
+        },{
+            "id": 8,
+            "name": "Lost",
+            "value": 72000000,
+            "tags": ["revenue", "number", "metric"] 
+        }
+    ]
+}
